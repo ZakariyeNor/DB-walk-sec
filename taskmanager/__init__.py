@@ -16,3 +16,5 @@ else:
     app.config["SQLALCHEMY_DATABASE_URI"] = uri
 
 db = SQLAlchemy(app)
+
+from taskmanager import routes
